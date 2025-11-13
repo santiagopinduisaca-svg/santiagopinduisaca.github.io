@@ -1,10 +1,7 @@
 html{
- background-color: rgb(158, 232, 158);
-}
+ background-color: rgb(201, 253, 201);
 
-*{
-    border: solid 1px white
-}
+
 
 main{ 
     display: flex;
@@ -12,23 +9,40 @@ main{
     align-items: center;
     flex-direction: column;
     padding-top: 5rem;
-    padding-bottom: ;
+    padding-bottom: 5rem
 }
 
 .titulo h1{
-   color: white; 
+   color: rgb(143, 70, 126); 
    font-family: "Micro 5", sans-serif;
 }
 
 
 .nav a{
-    color: palevioletred;
+    margin-block: 0.20rem;
+    display:inline-block;
+    background-color: rgb(225, 249, 216);
+    color: rgb(157, 78, 140);
     text-decoration: none;
+    padding-block: 0.4rem;
+    border-radius: 5px;
+    padding-inline: 1rem;
+    border: solid 1px rgb(157, 78, 140);
+
 }
 
+li a:hover{
+    background-color : rgb(241, 186, 230);
+    transform: scale(1.15);
+}
 .nav ul{
     list-style: none;
     display: flex;
     flex-direction: column;
+}
 
+.titulo h1{
+    text-align: center;
+    font-size: 3rem; 
+    font-style: italic;
 }
